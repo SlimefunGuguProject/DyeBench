@@ -47,7 +47,7 @@ public class TheDyeBench extends AContainer implements RecipeDisplayItem {
         super(category, item, recipeType, recipe);
         addItemHandler(onBreak());
 
-        new BlockMenuPreset(getId(), "&fDye Bench") {
+        new BlockMenuPreset(getId(), "&f染色台") {
             @Override
             public void init() {
                 constructMenu(this);
